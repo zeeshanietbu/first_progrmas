@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main ()
+int main ()
 {
     
     for (int i = 0; i < 50; i++)
@@ -9,7 +9,7 @@ void main ()
         printf("\n");
     }
     
-    getch();
+    return 0;/*you can't use getch() without using conio.h header file*/
 }
 
 
